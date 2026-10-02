@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="icon" type="image/png" href="clima-simbolo.png">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard do Clima</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>Dashboard do Clima</h1>
+
+        <div class="pesquisa">
+
+            <input
+                type="text"
+                id="cidade"
+                placeholder="Digite uma cidade"
+            >
+
+            <button id="buscar">
+                Pesquisar
+            </button>
+
+        </div>
+
+        <section id="clima" class="clima">
+
+            <h2 id="nome-cidade">João Pessoa</h2>
+
+            <div class="temperatura">
+
+                <span id="temperatura">--</span> °C
+
+            </div>
+
+            <p id="descricao">
+                Pesquise uma cidade para poder ver o clima
+            </p>
+
+            <div class="informacoes">
+
+                <div>
+
+                    <strong>Umidade</strong>
+
+                    <p id="umidade">--%</p>
+
+                </div>
+
+                <div>
+
+                    <strong>Vento</strong>
+
+                    <p id="vento">-- km/h</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
